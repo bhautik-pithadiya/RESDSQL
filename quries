@@ -1,0 +1,4 @@
+-- database: /home/ksuser/Bhautik/text2code/text2mssql/RESDSQL/inference_db/test.db
+select count ( distinct Departments.DepartmentID) from Departments
+
+-- Use the ▷ button in the top right corner to run the entire file.

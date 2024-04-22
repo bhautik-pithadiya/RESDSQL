@@ -1,0 +1,17 @@
+[
+    {
+        "Database": "inference_db/test.db",
+        "Prompt": "how many departments are there?",
+        "Output": "select count ( distinct Departments.DepartmentID) from Departments"
+    },
+    {
+        "Database": "inference_db/test.db",
+        "Prompt": "Retrieve all employees and their departments",
+        "Output" : 
+    },
+    {
+        "Database": "inference_db/test.db",
+        "Prompt": "Retrieve the names of employees who earn more than 70000",
+        "Output": "select Employees.Name from Employees where Employees.Salary > 70000"
+    }
+]
